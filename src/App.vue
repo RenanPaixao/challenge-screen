@@ -1,21 +1,21 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
+    <Register />
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Register from './views/Register';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Register,
   },
 
   data: () => ({}),
 };
 </script>
+}
+<style scoped></style>
