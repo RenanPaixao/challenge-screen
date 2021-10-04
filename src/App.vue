@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <Register />
+    <v-main>
+      <Register />
+    </v-main>
   </v-app>
 </template>
 
