@@ -3,8 +3,10 @@ import Vuetify from 'vuetify/lib/framework';
 
 Vue.use(Vuetify, {
   theme: {
-    primary: '#009AE4',
-    secondary: '#EAEAEA',
+    light: {
+      primary: '#009AE4',
+      secondary: '#EAEAEA',
+    },
   },
 });
 
