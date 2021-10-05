@@ -7,7 +7,9 @@
       <v-col cols="8">
         <FormDetails @fieldsFilled-event="fieldsFilledFunc($event)" />
       </v-col>
-      <v-col cols="4"> </v-col>
+      <v-col cols="4">
+        <InfoCard/>
+      </v-col>
     </v-row>
     <hr color="#eaeaea" />
     <v-layout justify-center pt-8>
@@ -18,11 +20,13 @@
 
 <script>
 import FormDetails from '@/components/FormDetails';
+import InfoCard from '@/components/InfoCard';
 
 export default {
   name: 'Register',
   components: {
     FormDetails,
+    InfoCard
   },
   data() {
     return {
